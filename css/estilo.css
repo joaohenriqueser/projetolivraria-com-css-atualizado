@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header#topo {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header#topo h1, header#topo h2 {
+    margin: 0;
+}
+
+header#topo h1 {
+    font-size: 2em;
+}
+
+header#topo h2 {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+nav#menu {
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav#menu ul li {
+    margin: 0 10px;
+}
+
+nav#menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 5px;
+}
+
+nav#menu ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2, main h3 {
+    text-align: center;
+}
+
+main p, main ol {
+    margin-bottom: 20px;
+}
+
+main ol {
+    margin-left: 20px;
+}
+
+main ol li {
+    margin-bottom: 5px;
+}
+
+main.destaques ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    gap: 20px;
+    flex-flow: wrap;
+    box-sizing: border-box;
+    padding: 20px;
+    max-width: calc(50% - 20px);
+    margin-left: 25%;
+}
+
+main.destaques ul li {
+    margin: 10px;
+    text-align: center;
+}
+
+main.destaques ul li span {
+    display: block;
+    margin-top: 10px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+main.destaques ul li img {
+    width: 150px;
+    height: 230px;
+    border-radius: 5px;
+}
+
+main.contato form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+main.contato form div {
+    margin-bottom: 15px;
+    font-weight: bold
+}
+
+main.contato form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+main.contato form input,
+main.contato form select,
+main.contato form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+main.contato form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main.contato form button:hover {
+    background-color: #555;
+}
+
+footer#rodape {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer#rodape ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer#rodape ul li {
+    margin: 0 10px;
+}
+
+footer#rodape ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 5px;
+}
+
+footer#rodape ul li a:hover {
+    background-color: #555;
+}
+
+footer#rodape p {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
